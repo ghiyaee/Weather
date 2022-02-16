@@ -2,7 +2,8 @@ const input = document.querySelector('.chang-loction');
 const delails = document.querySelector('.text-details');
 const card = document.querySelector('.card');
 const time = document.querySelector('img.time');
-const icone=document.querySelector('.icon img')
+const icone = document.querySelector('.icon img')
+const colorIcone = document.querySelector('.text-details');
 console.log(icone);
 const updateUl = (city) => {
      console.log(city);
@@ -14,9 +15,11 @@ const updateUl = (city) => {
     // const { citydets, weather } = city;
     let timesrc = null;
     if (weather.IsDayTime) {
-        timesrc='imag/day.svg'
+        timesrc = 'imag/day.svg'
+        colorIcone.style.color="black"
     } else {
-        timesrc = 'imag/night.svg'
+        timesrc = 'imag/night.svg';
+        colorIcone.style.color = 'white';
     }
 
     time.setAttribute("src",timesrc)
