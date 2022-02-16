@@ -66,6 +66,8 @@ body{
 }
 footer{
     text-align: center;
+    font-size: large;
+    font-weight: bold;
 }
 .hiden{
     /* display: none; */
@@ -80,12 +82,11 @@ footer{
 
 
  @media(max-width:400px){
-     /* .icon{
-       top:48%;
-       left: 38%;
-         
-     } */
+    
      .container{
-         width: 100%;
+         width:300px;
+     }
+   .card .icon {
+    top:58%
      }
  }
