@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text">Weather</h1>
+        <form  class="chang-loction">
+          <label for="city">Enter a location</label>
+          <input type="text" name="city" class="form">
+        </form>
+        <div class="card hiden">
+            <img src="./imag/day.svg" alt="imag" class="time">
+            <div class="icon">
+                    <img src="./imag/icons/1.svg" alt="">
+            </div>
+            <div class="text-details">
+                <h5 class="city-name">City name</h5>
+                <div class="weather-condition">Weather Condition</div>
+                <div class="display">
+                    <span>temp</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>&copy;2022</footer>
+    <script src="./scripts/dom.js"></script>
+     <script src="./scripts/api.js"></script>
+</body>
+</html>
