@@ -13,17 +13,19 @@ const updateUl = (city) => {
     const icones = `imag/icons/${weather.WeatherIcon}.svg`;
     icone.setAttribute('src',icones)
     // const { citydets, weather } = city;
+    
+    
     let timesrc = null;
     if (weather.IsDayTime) {
         timesrc = 'imag/day.svg'
-        colorIcone.style.color="black"
+       
     } else {
         timesrc = 'imag/night.svg';
-        colorIcone.style.color = 'white';
+      
     }
-
+    
     time.setAttribute("src",timesrc)
-
+  
 
 
 

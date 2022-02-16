@@ -4,20 +4,22 @@
     box-sizing: 0;
 }
 body{
-    background: #f3e8dd;
+    background: #969393;
     letter-spacing: 0.2rem;
     font-size: 0.9rem;
     min-height: 100vh;
+
 }
 .container{
  text-align: center;
  max-width: 400px;
  margin: 0 auto;
 
+
 }
 .container,.text {
     margin-top:2rem;
-    color: rgb(119, 113, 113);
+    color: rgb(143, 33, 33);
 }
 .chang-loction{
     display: flex;
@@ -25,6 +27,7 @@ body{
 }
 .chang-loction label{
     margin-top: 1rem;
+    font-weight: bold;
 }
 .chang-loction input{
     padding: 1.5rem;
@@ -40,12 +43,11 @@ body{
 }
  .card .icon {
      position: absolute;
-     top :55%;
+     top :50%;
      left: 50%;
      border-radius: 50%;
-     background-color: rgb(250, 240, 241);
+     background-color: rgb(168, 194, 252);
      transform: translate( -50%, -50% ) ;
-     background: transparent;
 
  }
 
@@ -56,7 +58,7 @@ body{
     
 }
 .city-name{
-    margin-top: 4rem;
+    margin-top: 2rem;
 
 }
 .city-name,.weather-condition{
@@ -64,7 +66,7 @@ body{
 }
 
 .display{
-   padding: 2rem;
+   padding: 1rem;
 }
 .display span{
     /* font-size: 30px; */
@@ -75,7 +77,7 @@ footer{
     font-weight: bold;
 }
 .hiden{
-    /* display: none; */
+    display: none;
 }
 .card{
  
@@ -89,11 +91,11 @@ footer{
  @media(max-width:400px){
     
      .container{
-         /* width:400px;
-         transition: all 1s; */
+         width:300px;
+         transition: all 1s;
      }
    .card .icon {
-    top:58%
+    top:50%
      }
      .chang-loction input{
      padding: 0.5rem;
